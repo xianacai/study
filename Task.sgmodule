@@ -1,0 +1,18 @@
+#!name=Task
+#!desc=该模块适用于定时签到,个人收集常用签到脚本。建议本地安装以便自定义修改签到时间。
+#!system=ios
+
+[Script]
+
+# > 每日一句+ 蚂蚁森林收能量
+cron_daily.js = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,tag=每日一句+蚂蚁森林收能量,type=cron,cronexp=0 30 7 * * *
+# 签到脚本
+# > NobyDa
+# > 京东
+JD_DailyBonus.js = type=cron,cronexp=0 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+# 人人视频
+# 打开 APP, 访问下`个人中心`
+rrtv.js = type=cron,cronexp=15 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,script-update-interval=0
+# 百词斩
+# 打开 APP 手动签到一次: 访问下右下角 `我` > `我的铜板` > `加入百词斩小班` > `去查看` > `我的小班进去 领铜板`
+bcz.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bcz/bcz.js,type=cron,cronexp=50 2 0 * * *
