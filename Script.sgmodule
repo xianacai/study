@@ -1,5 +1,5 @@
 #!name=Script-jianhua . By nzw9314
-#!desc=该模块为脚本合集,用于Remove Ads + unlock vip.集成: NobyDa、yichahucha、Choler、onewayticket、langkhach以及个人收集整理的脚本. 需要配置 CA 证书并启用 MitM 开关.  您可以在使用后手动将本模块禁用，以免产生不必要的MITM.如果您是YouTube会员.请添加-*.googlevideo.com到hostname，否则无法加载视频.
+#!desc=该模块为nzw9314脚本简化,用于Remove Ads + unlock vip.. 需要配置 CA 证书并启用 MitM 开关.  您可以在使用后手动将本模块禁用，以免产生不必要的MITM.如果您是YouTube会员.请添加-*.googlevideo.com到hostname，否则无法加载视频.
 #!system=ios
 
 [Script]
@@ -99,6 +99,7 @@ XMind.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.
 // dayone-pre.js = debug=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/dayone-pre.js,type=http-request,pattern=^https:\/\/dayone\.me\/api\/users$
 dayone.surge.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/dayone.surge.js,script-update-interval=0,type=http-response,pattern=^https:\/\/dayone\.me\/api\/(users|v2\/users\/(account-status|receipt))$
 
+[Script]
 # > 京东
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
 JD_DailyBonus.js = max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex)
