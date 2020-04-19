@@ -71,8 +71,6 @@ Splice.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa
 # > 以下为nzw9314收集整理
 # > JAV101无限观看 (By 凉意)
 JAV101.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js,type=http-response,pattern=^https\:\/\/api\.gao1gps\.cn\/v1\/user\/info
-# 115离线 (请仔细阅读脚本内使用说明 By ikanam)
-115lx.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/115lx.js,type=http-response,pattern=^http:\/\/115\.com\/lx.*$
 # lake
 lake.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/lake.js,type=http-response,pattern=^https:\/\/api\.lakecoloring\.com\/v1\/receipt
 # > 人人视频 解锁AI原画 (by@george Jiang & R)
